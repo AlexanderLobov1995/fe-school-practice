@@ -1,5 +1,3 @@
-<h1> Todo List: {{ownerName}} </h1>
+<app-todo-header></app-todo-header>
 <p> Pick an item from the list: </p>
-<ul>
-  <li *ngFor="let todo of todos" (click)="selectTodo(todo)"> {{ todo.name }} </li>
-</ul>
+<app-todo-list></app-todo-list>

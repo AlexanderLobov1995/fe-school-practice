@@ -1,0 +1,16 @@
+:host {
+  li {
+    height: 50px;
+    background-color: lightskyblue;
+    border-bottom: 2px solid blue;
+    margin: 10px 0;
+    cursor: pointer;
+  }
+
+  li:before {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+  }
+}
